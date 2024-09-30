@@ -6,12 +6,12 @@ for c in range(1,5):
     print(f'----- {c}ª PEOPLE -----')
     name = str(input('Name:  '))
     old = int(input('Years old: '))
-    Sexo = str(input('Male or Female [M/F]: ')).upper()
+    MF = str(input('Male or Female [M/F]: ')).upper()
     Sm += old
     if old > i :
         i = old
         nameold = name
-    if Sexo == 'F'   and old < 20 :
+    if MF == 'F'   and old < 20 :
         woman += 1
 Oa = Sm / 4
 print(f'The average age of the group is {Oa} years old ')
